@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "src",
+    "quasar.config.ts"
+  ],
+  "ext": "js,ts,vue,scss,json",
+  "delay": "500",
+  "exec": "quasar build"
+}

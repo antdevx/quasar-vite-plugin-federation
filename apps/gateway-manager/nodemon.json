@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "apps/**/src",
+    "apps/**/quasar.conf.js"
+  ],
+  "ext": "js,ts,vue,scss,css,json",
+  "delay": 500,
+  "env": {
+    "PORT": "8000",
+    "GATEWAY_PORT": "5000",
+    "TODO_FORM_PORT": "5001",
+    "TODO_LIST_PORT": "5002",
+    "TODO_FOOTER_PORT": "5003"
+  }
+}
