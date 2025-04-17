@@ -19,6 +19,10 @@ const todos = ref<Todo[]>([{
   id: 3000,
   text: 'Build a Todo App',
   done: true
+}, {
+  id: 4000,
+  text: 'Learn Vue Router',
+  done: false
 }])
 let idCounter = 1
 

@@ -4,7 +4,6 @@
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from '#q-app/wrappers';
 import federation from '@originjs/vite-plugin-federation'
-import { notifyOnRebuild } from '@antdevx/vite-plugin-hmr-sync'
 import type { CompilerOptions, TypeAcquisition } from 'typescript'
 
 type StripEnums<T extends Record<string, any>> = {
@@ -136,10 +135,6 @@ export default defineConfig((/* ctx */) => {
             },
           }
         }),
-        notifyOnRebuild({
-          appName: 'todo-form',
-          hostUrl: 'http://localhost:5000'
-        }) as Plugin
       ],
 
       alias: {

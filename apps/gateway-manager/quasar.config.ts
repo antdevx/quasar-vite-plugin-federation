@@ -1,6 +1,7 @@
 // Configuration for your app
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file
 
+import { Plugin } from 'vite';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from '#q-app/wrappers';
 import federation from '@originjs/vite-plugin-federation'

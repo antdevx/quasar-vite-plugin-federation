@@ -4,6 +4,13 @@
     "quasar.config.ts"
   ],
   "ext": "js,ts,vue,scss,json",
-  "delay": "500",
-  "exec": "quasar build"
+  "exec": "node -e \"import('@antdevx/vite-plugin-hmr-sync').then(m => m.startBuildAndServer())\"",
+  "hmrSync": {
+    "port": 5002,
+    "notify": true,
+    "hostPort": 5000,
+    "appName": "todo-form",
+    "buildCommand": "quasar build",
+    "serveCommand": "quasar serve"
+  }
 }

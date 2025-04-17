@@ -1,6 +1,5 @@
 <!-- apps/todo-form/src/components/TodoForm.vue -->
 <template>
-  <!-- <q-input v-model="newTodo" label="Add todo" @keyup.enter="submit" /> -->
   <div class="row q-pa-sm bg-primary">
     <q-input filled dense square class="col" bg-color="white" v-model="newTodo" placeholder="Add Task"
       @keyup.enter="addTask">
