@@ -1,7 +1,3 @@
 packages:
   - apps/**
   - shared
-
-overrides:
-  '@antdevx/vite-plugin-hmr-sync': link:../../../../AppData/Local/pnpm/global/5/node_modules/@antdevx/vite-plugin-hmr-sync
-  vite-plugin-hmr-sync@1.0.2: link:../../../../AppData/Local/pnpm/global/5/node_modules/@antdevx/vite-plugin-hmr-sync@1.0.2

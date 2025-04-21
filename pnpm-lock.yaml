@@ -4,17 +4,13 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@antdevx/vite-plugin-hmr-sync': link:../../../../AppData/Local/pnpm/global/5/node_modules/@antdevx/vite-plugin-hmr-sync
-  vite-plugin-hmr-sync@1.0.2: link:../../../../AppData/Local/pnpm/global/5/node_modules/@antdevx/vite-plugin-hmr-sync@1.0.2
-
 importers:
 
   .:
     devDependencies:
       '@antdevx/vite-plugin-hmr-sync':
-        specifier: link:../../../../AppData/Local/pnpm/global/5/node_modules/@antdevx/vite-plugin-hmr-sync
-        version: link:../../../../AppData/Local/pnpm/global/5/node_modules/@antdevx/vite-plugin-hmr-sync
+        specifier: ^1.1.0
+        version: 1.1.0
       '@eslint/js':
         specifier: ^9.14.0
         version: 9.24.0
@@ -134,6 +130,9 @@ importers:
         version: 4.5.0(vue@3.5.13(typescript@5.5.4))
 
 packages:
+
+  '@antdevx/vite-plugin-hmr-sync@1.1.0':
+    resolution: {integrity: sha512-zObtfXeO5gF1x1u7arLqXQmnOvCzukocJW7AvoVGmT9FZfBhLLD/7dMDQ3P+KXbvXpg4gX3EWIECac+WuvreGw==}
 
   '@babel/code-frame@7.26.2':
     resolution: {integrity: sha512-RJlIHRueQgwWitWgF8OdFYGZX328Ax5BCemNGlqHfplnRT9ESi8JkFlvaVYbS+UubVY6dpv87Fs2u5M29iNFVQ==}
@@ -2999,6 +2998,8 @@ packages:
     engines: {node: '>= 14'}
 
 snapshots:
+
+  '@antdevx/vite-plugin-hmr-sync@1.1.0': {}
 
   '@babel/code-frame@7.26.2':
     dependencies:
